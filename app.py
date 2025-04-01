@@ -67,7 +67,7 @@ class TestApp:
 
         ttk.Label(self.master, text="Seleccione una sección:", style='Title.TLabel').pack(pady=50)
 
-        secciones = ["PAR", "ISO", "FH", "GBD", "Inglés", "IPE", "LM"]
+        secciones = ["PAR", "ISO", "FH", "GBD", "Ingles", "IPE", "LM"]
         btn_frame = ttk.Frame(self.master)
         btn_frame.pack()
 
@@ -88,13 +88,48 @@ class TestApp:
         self.forward_btn = ttk.Button(nav, text="→", command=self.go_forward, style='Nav.TButton')
         self.forward_btn.pack(side="left")
 
-        ttk.Label(self.master, text=f"Subtemas de {seccion}", style='Section.TLabel').pack(pady=30)
+        ttk.Label(self.master, text=f"Subtemas de {seccion}", style='Section.TLabel').pack(pady=20)
+
+        # === Scrollable container ===
+        container = ttk.Frame(self.master)
+        container.pack(fill="both", expand=True, padx=10, pady=10)
+
+        canvas = tk.Canvas(container)
+        canvas.pack(side="left", fill="both", expand=True)
+
+        scrollbar = ttk.Scrollbar(container, orient="vertical", command=canvas.yview)
+        scrollbar.pack(side="right", fill="y")
+
+        canvas.configure(yscrollcommand=scrollbar.set)
+        canvas.bind('<Configure>', lambda e: canvas.itemconfig('window', width=e.width))
+
+        scrollable_frame = ttk.Frame(canvas)
+        window = canvas.create_window((0, 0), window=scrollable_frame, anchor="n", tags='window')
+
+        scrollable_frame.bind("<Configure>", lambda e: canvas.configure(scrollregion=canvas.bbox("all")))
+
+        # Scroll del mouse
+        if self.master.tk.call('tk', 'windowingsystem') == 'x11':
+            canvas.bind_all("<Button-4>", lambda e: canvas.yview_scroll(-1, "units"))
+            canvas.bind_all("<Button-5>", lambda e: canvas.yview_scroll(1, "units"))
+        else:
+            canvas.bind_all("<MouseWheel>", lambda e: canvas.yview_scroll(int(-1 * (e.delta / 120)), "units"))
+
+        # === Frame interior centrado ===
+        inner_frame = ttk.Frame(scrollable_frame)
+        canvas.bind("<Configure>", lambda e: inner_frame.config(width=e.width))
+
+        inner_frame.pack(anchor="center", pady=10)
 
         for i in range(1, 11):
-            ttk.Button(self.master, text=f"T{i}", width=20,
-                    command=lambda t=i: self.navigate(self.cargar_test, seccion, t)).pack(pady=8)
-
+            ttk.Button(inner_frame, text=f"T{i}", width=20,
+                    command=lambda t=i: self.navigate(self.cargar_test, seccion, t)).pack(pady=10)
+        
         self.update_nav_buttons()
+
+
+
+
 
 
     def cargar_test(self, seccion, numero_tema):
@@ -152,7 +187,8 @@ class TestApp:
 
         for idx, pregunta in enumerate(self.preguntas):
             frame = ttk.LabelFrame(self.scrollable_frame, text=f"Pregunta {idx + 1}", padding=15)
-            frame.pack(anchor='w', fill="x", padx=20, pady=10)
+            frame.pack(anchor='w', fill="x", padx=80, pady=10)
+            container.pack(fill="both", expand=True, padx=60, pady=10)
             ttk.Label(frame, text=pregunta['pregunta'], wraplength=1100, justify="left", font=('Segoe UI', 13)).pack(anchor='w', pady=(5, 10))
             var = tk.IntVar(value=-1)
             self.respuestas_usuario[idx] = var
