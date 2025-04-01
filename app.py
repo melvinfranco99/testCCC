@@ -5,11 +5,110 @@ import random
 
 class TestApp:
     def __init__(self, master):
-        master.title("Examen Aleatorio - 20 Preguntas")
+        self.master = master
+        self.master.title("Inicio de la Aplicación")
+        self.master.state('zoomed')  # Pantalla completa en Windows
+        self.history = []
+        self.future = []
+        self.current_view = None
+        self.inicio_app()
 
-        # Contenedor con canvas + scroll
-        container = ttk.Frame(master)
-        canvas = tk.Canvas(container, width=800, height=600)
+    def navigate(self, func, *args):
+        if self.current_view:
+            self.history.append((self.current_view, self.current_args))
+        self.future.clear()
+        self.current_view = func
+        self.current_args = args
+        func(*args)
+
+    def go_back(self):
+        if self.history:
+            self.future.append((self.current_view, self.current_args))
+            view, args = self.history.pop()
+            self.current_view = view
+            self.current_args = args
+            view(*args)
+            self.update_nav_buttons()
+
+    def go_forward(self):
+        if self.future:
+            self.history.append((self.current_view, self.current_args))
+            view, args = self.future.pop()
+            self.current_view = view
+            self.current_args = args
+            view(*args)
+            self.update_nav_buttons()
+
+    def update_nav_buttons(self):
+        if hasattr(self, 'back_btn') and hasattr(self, 'forward_btn'):
+            self.back_btn.config(state="normal" if self.history else "disabled")
+            self.forward_btn.config(state="normal" if self.future else "disabled")
+
+    def inicio_app(self):
+        self.clear_window()
+        self.current_view = self.inicio_app
+        self.current_args = ()
+
+        nav = ttk.Frame(self.master)
+        nav.pack(anchor="nw", padx=10, pady=5)
+        self.back_btn = tk.Button(nav, text="←", width=3, command=self.go_back, font=("Arial", 14))
+        self.back_btn.pack(side="left")
+        self.forward_btn = tk.Button(nav, text="→", width=3, command=self.go_forward, font=("Arial", 14))
+        self.forward_btn.pack(side="left")
+
+        tk.Label(self.master, text="Seleccione una sección:", font=("Arial", 24, "bold")).pack(pady=40)
+
+        secciones = ["PAR", "ISO", "FH", "GBD", "Inglés", "IPE", "LM"]
+        btn_frame = ttk.Frame(self.master)
+        btn_frame.pack()
+        for sec in secciones:
+            tk.Button(btn_frame, text=sec, width=15, height=2, font=("Arial", 16), 
+                      command=lambda s=sec: self.navigate(self.mostrar_subtemas, s)).pack(pady=10)
+
+        self.update_nav_buttons()
+
+    def mostrar_subtemas(self, seccion):
+        self.clear_window()
+        self.current_view = self.mostrar_subtemas
+        self.current_args = (seccion,)
+
+        nav = ttk.Frame(self.master)
+        nav.pack(anchor="nw", padx=10, pady=5)
+        self.back_btn = tk.Button(nav, text="←", width=3, command=self.go_back, font=("Arial", 14))
+        self.back_btn.pack(side="left")
+        self.forward_btn = tk.Button(nav, text="→", width=3, command=self.go_forward, font=("Arial", 14))
+        self.forward_btn.pack(side="left")
+
+        tk.Label(self.master, text=f"Subtemas de {seccion}", font=("Arial", 22, "bold")).pack(pady=30)
+
+        if seccion == "ISO":
+            for i in range(1, 11):
+                if i == 1:
+                    tk.Button(self.master, text=f"T{i}", width=15, height=2, font=("Arial", 16),
+                               command=lambda t=i: self.navigate(self.cargar_test, f"ISO_T{t}"))\
+                        .pack(pady=8)
+                else:
+                    tk.Button(self.master, text=f"T{i}", width=15, height=2, font=("Arial", 16), state="disabled")\
+                        .pack(pady=8)
+        else:
+            tk.Label(self.master, text=f"Aún no hay contenido para {seccion}", font=("Arial", 14)).pack(pady=10)
+
+        self.update_nav_buttons()
+
+    def cargar_test(self, tema):
+        self.clear_window()
+        self.current_view = self.cargar_test
+        self.current_args = (tema,)
+
+        nav = ttk.Frame(self.master)
+        nav.pack(anchor="nw", padx=10, pady=5)
+        self.back_btn = tk.Button(nav, text="←", width=3, command=self.go_back, font=("Arial", 14))
+        self.back_btn.pack(side="left")
+        self.forward_btn = tk.Button(nav, text="→", width=3, command=self.go_forward, font=("Arial", 14))
+        self.forward_btn.pack(side="left")
+
+        container = ttk.Frame(self.master)
+        canvas = tk.Canvas(container)
         scrollbar = ttk.Scrollbar(container, orient="vertical", command=canvas.yview)
         self.scrollable_frame = ttk.Frame(canvas)
 
@@ -25,27 +124,19 @@ class TestApp:
         canvas.pack(side="left", fill="both", expand=True)
         scrollbar.pack(side="right", fill="y")
 
-        # Scroll con rueda del ratón (Windows/macOS/Linux)
-        def _on_mousewheel(event):
-            canvas.yview_scroll(int(-1*(event.delta/120)), "units")
+        canvas.bind_all("<MouseWheel>", lambda e: canvas.yview_scroll(int(-1*(e.delta/120)), "units"))
+        canvas.bind_all("<Button-4>", lambda e: canvas.yview_scroll(-1, "units"))
+        canvas.bind_all("<Button-5>", lambda e: canvas.yview_scroll(1, "units"))
 
-        canvas.bind_all("<MouseWheel>", _on_mousewheel)         # Windows/macOS
-        canvas.bind_all("<Button-4>", lambda e: canvas.yview_scroll(-1, "units"))  # Linux scroll up
-        canvas.bind_all("<Button-5>", lambda e: canvas.yview_scroll(1, "units"))   # Linux scroll down
-
-        # Cargar preguntas
-        with open('preguntas_test.json', 'r', encoding='utf-8') as f:
+        with open('so_1.json', 'r', encoding='utf-8') as f:
             todas_preguntas = json.load(f)
 
-        # Seleccionar 20 preguntas aleatorias
         self.preguntas = random.sample(todas_preguntas, k=20)
 
-        # Desordenar opciones de respuesta
         for pregunta in self.preguntas:
             opciones = pregunta["opciones"]
             correcta = pregunta["respuesta_correcta"]
             texto_correcto = opciones[correcta]
-
             random.shuffle(opciones)
             pregunta["opciones"] = opciones
             pregunta["respuesta_correcta"] = opciones.index(texto_correcto)
@@ -53,23 +144,23 @@ class TestApp:
         self.respuestas_usuario = {}
         self.widgets = []
 
-        # Mostrar preguntas y opciones
         for idx, pregunta in enumerate(self.preguntas):
-            frame = ttk.LabelFrame(self.scrollable_frame, text=f"Pregunta {idx+1}")
-            frame.pack(anchor='w', fill="x", padx=10, pady=5)
-            label = tk.Label(frame, text=pregunta['pregunta'], wraplength=750, justify="left")
-            label.pack(anchor='w')
+            frame = ttk.LabelFrame(self.scrollable_frame, text=f"Pregunta {idx+1}", padding=10)
+            frame.pack(anchor='w', fill="x", padx=20, pady=10)
+            label = tk.Label(frame, text=pregunta['pregunta'], wraplength=1100, justify="left", font=("Arial", 14))
+            label.pack(anchor='w', pady=(5,10))
             var = tk.IntVar(value=-1)
             self.respuestas_usuario[idx] = var
 
             for opt_idx, opcion in enumerate(pregunta['opciones']):
-                rb = tk.Radiobutton(frame, text=opcion, variable=var, value=opt_idx, wraplength=750, anchor='w', justify="left")
-                rb.pack(anchor='w')
+                rb = tk.Radiobutton(frame, text=opcion, variable=var, value=opt_idx, wraplength=1000, anchor='w', justify="left", font=("Arial", 13))
+                rb.pack(anchor='w', pady=2)
                 self.widgets.append((rb, idx, opt_idx))
 
-        # Botón de envío
-        enviar_btn = tk.Button(self.scrollable_frame, text="Enviar", command=self.evaluar, bg="lightblue")
-        enviar_btn.pack(pady=20)
+        enviar_btn = tk.Button(self.scrollable_frame, text="Enviar", command=self.evaluar, bg="lightblue", font=("Arial", 16, "bold"))
+        enviar_btn.pack(pady=30)
+
+        self.update_nav_buttons()
 
     def evaluar(self):
         correctas = 0
@@ -81,7 +172,6 @@ class TestApp:
             if respuesta_usuario == correcta:
                 correctas += 1
 
-        # Recolorear las opciones según respuesta del usuario
         for widget, idx, opt_idx in self.widgets:
             correcta = self.preguntas[idx]["respuesta_correcta"]
             respuesta_usuario = self.respuestas_usuario[idx].get()
@@ -96,9 +186,10 @@ class TestApp:
         nota = round((correctas / 20) * 10, 2)
         messagebox.showinfo("Resultado", f"Has acertado {correctas} de 20 preguntas.\nNota final: {nota}/10.\n\nLas respuestas correctas están en verde, las incorrectas en rojo.")
 
+    def clear_window(self):
+        for widget in self.master.winfo_children():
+            widget.destroy()
 
-
-# Ejecutar aplicación
 if __name__ == "__main__":
     root = tk.Tk()
     app = TestApp(root)
