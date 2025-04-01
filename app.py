@@ -2,6 +2,7 @@ import json
 import tkinter as tk
 from tkinter import messagebox, ttk
 import random
+import os
 
 class TestApp:
     def __init__(self, master):
@@ -89,21 +90,17 @@ class TestApp:
 
         ttk.Label(self.master, text=f"Subtemas de {seccion}", style='Section.TLabel').pack(pady=30)
 
-        if seccion == "ISO":
-            for i in range(1, 11):
-                estado = "normal" if i == 1 else "disabled"
-                ttk.Button(self.master, text=f"T{i}", width=20,
-                           command=lambda t=i: self.navigate(self.cargar_so_1, f"ISO_T{t}"),
-                           state=estado).pack(pady=8)
-        else:
-            ttk.Label(self.master, text=f"Aún no hay contenido para {seccion}").pack(pady=10)
+        for i in range(1, 11):
+            ttk.Button(self.master, text=f"T{i}", width=20,
+                    command=lambda t=i: self.navigate(self.cargar_test, seccion, t)).pack(pady=8)
 
         self.update_nav_buttons()
 
-    def cargar_so_1(self, tema):
+
+    def cargar_test(self, seccion, numero_tema):
         self.clear_window()
-        self.current_view = self.cargar_so_1
-        self.current_args = (tema,)
+        self.current_view = self.cargar_test
+        self.current_args = (seccion, numero_tema)
 
         nav = ttk.Frame(self.master)
         nav.pack(anchor="nw", padx=10, pady=10)
@@ -112,40 +109,16 @@ class TestApp:
         self.forward_btn = ttk.Button(nav, text="→", command=self.go_forward, style='Nav.TButton')
         self.forward_btn.pack(side="left")
 
-        container = ttk.Frame(self.master)
-        canvas = tk.Canvas(container)
-        scrollbar = ttk.Scrollbar(container, orient="vertical", command=canvas.yview)
-        self.scrollable_frame = ttk.Frame(canvas)
+        nombre_archivo = f"{seccion.lower()}_{numero_tema}.json"
+        if not os.path.isfile(nombre_archivo):
+            ttk.Label(self.master, text=f"No hay test disponible para {seccion} Tema {numero_tema}.", font=('Segoe UI', 14)).pack(pady=50)
+            return
 
-        self.scrollable_frame.bind("<Configure>", lambda e: canvas.configure(scrollregion=canvas.bbox("all")))
-        canvas.create_window((0, 0), window=self.scrollable_frame, anchor="nw")
-        canvas.configure(yscrollcommand=scrollbar.set)
-
-        def _on_mousewheel(event):
-            canvas.yview_scroll(int(-1 * (event.delta / 120)), "units")
-
-        def _on_linux_scroll_up(event):
-            canvas.yview_scroll(-1, "units")
-
-        def _on_linux_scroll_down(event):
-            canvas.yview_scroll(1, "units")
-
-        # Vincula eventos de scroll del mouse
-        if self.master.tk.call('tk', 'windowingsystem') == 'x11':  # Linux
-            canvas.bind_all("<Button-4>", _on_linux_scroll_up)
-            canvas.bind_all("<Button-5>", _on_linux_scroll_down)
-        else:  # Windows o macOS
-            canvas.bind_all("<MouseWheel>", _on_mousewheel)
-
-
-        container.pack(fill="both", expand=True)
-        canvas.pack(side="left", fill="both", expand=True)
-        scrollbar.pack(side="right", fill="y")
-
-        with open('so_1.json', 'r', encoding='utf-8') as f:
+        with open(nombre_archivo, 'r', encoding='utf-8') as f:
             todas_preguntas = json.load(f)
 
-        self.preguntas = random.sample(todas_preguntas, k=20)
+        self.preguntas = random.sample(todas_preguntas, k=min(10, len(todas_preguntas)))
+
 
         for pregunta in self.preguntas:
             opciones = pregunta["opciones"]
@@ -157,6 +130,25 @@ class TestApp:
 
         self.respuestas_usuario = {}
         self.widgets = []
+
+        container = ttk.Frame(self.master)
+        canvas = tk.Canvas(container)
+        scrollbar = ttk.Scrollbar(container, orient="vertical", command=canvas.yview)
+        self.scrollable_frame = ttk.Frame(canvas)
+
+        self.scrollable_frame.bind("<Configure>", lambda e: canvas.configure(scrollregion=canvas.bbox("all")))
+        canvas.create_window((0, 0), window=self.scrollable_frame, anchor="nw")
+        canvas.configure(yscrollcommand=scrollbar.set)
+
+        if self.master.tk.call('tk', 'windowingsystem') == 'x11':
+            canvas.bind_all("<Button-4>", lambda e: canvas.yview_scroll(-1, "units"))
+            canvas.bind_all("<Button-5>", lambda e: canvas.yview_scroll(1, "units"))
+        else:
+            canvas.bind_all("<MouseWheel>", lambda e: canvas.yview_scroll(int(-1 * (e.delta / 120)), "units"))
+
+        container.pack(fill="both", expand=True)
+        canvas.pack(side="left", fill="both", expand=True)
+        scrollbar.pack(side="right", fill="y")
 
         for idx, pregunta in enumerate(self.preguntas):
             frame = ttk.LabelFrame(self.scrollable_frame, text=f"Pregunta {idx + 1}", padding=15)
@@ -174,6 +166,7 @@ class TestApp:
         ttk.Button(self.scrollable_frame, text="Enviar respuestas", command=self.evaluar).pack(pady=30)
 
         self.update_nav_buttons()
+
 
     def evaluar(self):
         correctas = 0
@@ -193,8 +186,11 @@ class TestApp:
             else:
                 widget.config(fg="black")
 
-        nota = round((correctas / 20) * 10, 2)
-        messagebox.showinfo("Resultado", f"Has acertado {correctas} de 20 preguntas.\nNota final: {nota}/10.")
+        total = len(self.preguntas)
+        nota = round((correctas / total) * 10, 2)
+
+        messagebox.showinfo("Resultado", f"Has acertado {correctas} de {total} preguntas.\nNota final: {nota}/10.")
+
 
     def clear_window(self):
         for widget in self.master.winfo_children():
