@@ -1,0 +1,102 @@
+[
+  {
+    "pregunta": "Qué es el software",
+    "opciones": [
+      "Parte intangible de un sistema informático, es decir, el equivalente al equipamiento o soporte lógico.",
+      "El conjunto de componentes físicos del sistema.",
+      "La red que permite la conexión entre equipos.",
+      "Un tipo de periférico de entrada."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué es la ingeniería de software",
+    "opciones": [
+      "Aplicación de un enfoque sistemático, disciplinado y cuantificable al desarrollo, operación, y mantenimiento del software.",
+      "Técnica para el diseño de hardware embebido.",
+      "Proceso de crear documentación para programas informáticos.",
+      "Estudio del comportamiento de los virus informáticos."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Cuáles son las fases del ciclo de vida del software",
+    "opciones": [
+      "Análisis, Diseño, Codificación, Pruebas, Mantenimiento",
+      "Inicio, Ejecución, Control, Entrega, Cierre",
+      "Instalación, Configuración, Validación, Revisión",
+      "Exploración, Análisis, Producción, Cierre, Feedback"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué es un virus",
+    "opciones": [
+      "Programa informático que al ejecutarse se adjunta al código ejecutable de otra aplicación",
+      "Una forma de respaldo de seguridad en red",
+      "Un software de limpieza para archivos obsoletos",
+      "Un tipo de archivo ejecutable de lectura segura"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué es un sistema operativo",
+    "opciones": [
+      "Programa o conjunto de programas que realizan funciones básicas y permiten el desarrollo de otros programas.",
+      "Un antivirus especializado en sistemas Linux.",
+      "Una interfaz gráfica para ejecutar videojuegos.",
+      "Un archivo que contiene múltiples tipos de datos."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué es la validación en el desarrollo de software",
+    "opciones": [
+      "Proceso que verifica que el software cumple con lo que espera el usuario.",
+      "Función de compilar el código fuente.",
+      "Interfaz para pruebas de hardware.",
+      "Proceso de eliminar virus del sistema."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué tipo de licencia permite modificar y distribuir el código fuente libremente",
+    "opciones": [
+      "Licencia libre",
+      "Licencia shareware",
+      "Licencia freeware",
+      "Licencia propietario"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Cuál es el lenguaje más cercano al lenguaje humano",
+    "opciones": [
+      "Lenguaje de alto nivel",
+      "Lenguaje ensamblador",
+      "Lenguaje máquina",
+      "Lenguaje binario"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué es el MBR",
+    "opciones": [
+      "El sector de arranque de un disco",
+      "Un tipo de partición lógica",
+      "Un sistema de gestión de archivos en la nube",
+      "Una unidad de memoria externa"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué tipo de sistema de archivos es exclusivo de Windows y más seguro que FAT",
+    "opciones": [
+      "NTFS",
+      "EXT4",
+      "FAT16",
+      "ReFS"
+    ],
+    "respuesta_correcta": 0
+  }
+]

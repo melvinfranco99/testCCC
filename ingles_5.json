@@ -1,0 +1,142 @@
+[
+  {
+    "pregunta": "¿Cuál es la característica distintiva del lenguaje técnico?",
+    "opciones": [
+      "Utiliza un léxico común y cotidiano",
+      "Es accesible para todos sin conocimientos previos",
+      "Su vocabulario es altamente especializado",
+      "Emplea exclusivamente palabras coloquiales"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿En qué contexto se utiliza principalmente el lenguaje técnico científico?",
+    "opciones": [
+      "En la comunicación entre amigos",
+      "En artículos de revistas científicas y conferencias especializadas",
+      "En las redes sociales",
+      "En conversaciones informales"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué característica tiene el lenguaje técnico informático?",
+    "opciones": [
+      "Se encuentra en manuales de usuario y documentación de desarrollo",
+      "Se usa principalmente en la divulgación de conceptos científicos",
+      "Es accesible para cualquier persona sin experiencia previa",
+      "Se emplea en conversaciones cotidianas"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es una característica de los diccionarios técnicos?",
+    "opciones": [
+      "Se centran en un campo específico de conocimiento",
+      "Incluyen un amplio rango de vocabulario cotidiano",
+      "Son utilizados principalmente en conversaciones informales",
+      "No requieren actualizaciones periódicas"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué proporcionan los diccionarios técnicos además de la definición del término?",
+    "opciones": [
+      "Sinónimos de uso común",
+      "Información sobre su uso y contexto",
+      "Traducción a varios idiomas",
+      "Definiciones breves y concisas"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Dónde se encuentran generalmente los glosarios técnicos?",
+    "opciones": [
+      "Al inicio de los documentos técnicos",
+      "En manuales de usuario de software",
+      "En secciones dentro de documentos técnicos más amplios",
+      "En diccionarios generales"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es una diferencia clave entre los diccionarios técnicos y los glosarios técnicos?",
+    "opciones": [
+      "Los diccionarios técnicos son más breves que los glosarios",
+      "Los glosarios proporcionan definiciones detalladas y exhaustivas",
+      "Los glosarios se centran en términos clave de un documento específico",
+      "Los diccionarios técnicos no incluyen ejemplos de uso"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Por qué es importante la actualización constante de los diccionarios técnicos?",
+    "opciones": [
+      "Para incluir sinónimos y antónimos comunes",
+      "Para reflejar nuevos desarrollos y cambios en el vocabulario",
+      "Para eliminar términos técnicos obsoletos",
+      "Para adaptarse a los cambios en el lenguaje coloquial"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es el papel de los diccionarios técnicos en la comunicación profesional?",
+    "opciones": [
+      "Facilitar la conversación informal entre colegas",
+      "Proporcionar definiciones detalladas para la comunicación precisa",
+      "Simplificar el uso de términos coloquiales en el trabajo",
+      "Ofrecer una guía para la redacción de documentos creativos"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es uno de los aspectos clave de la formación continua?",
+    "opciones": [
+      "Eliminar conocimientos obsoletos",
+      "Mantenerse al día con los desarrollos y avances en el campo",
+      "Simplificar la terminología técnica",
+      "Reducir la especialización en el área"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cómo contribuye la formación continua al dominio del vocabulario especializado?",
+    "opciones": [
+      "Introduciendo términos coloquiales",
+      "Facilitando la comprensión y el uso de nuevos términos técnicos",
+      "Evitando la creación de nuevos conceptos",
+      "Limitando el aprendizaje a términos ya conocidos"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué incluyen frecuentemente los programas de formación continua?",
+    "opciones": [
+      "Certificaciones y títulos adicionales",
+      "Traducciones a otros idiomas",
+      "Definiciones breves y concisas",
+      "Ejercicios prácticos de redacción creativa"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué método de formación continua ofrece flexibilidad para acceder a cursos y materiales desde cualquier lugar?",
+    "opciones": [
+      "Literatura especializada",
+      "Seminarios y conferencias",
+      "Cursos y talleres presenciales",
+      "Plataformas de e-learning"
+    ],
+    "respuesta_correcta": 3
+  },
+  {
+    "pregunta": "¿Cuál es una de las ventajas de participar en cursos de formación continua y eventos especializados?",
+    "opciones": [
+      "Reducir el número de términos técnicos",
+      "Establecer conexiones con otros expertos en el campo",
+      "Limitar la actualización de conocimientos",
+      "Simplificar la terminología técnica"
+    ],
+    "respuesta_correcta": 1
+  }
+]

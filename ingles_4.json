@@ -1,0 +1,162 @@
+[
+  {
+    "pregunta": "¿Cuál de las siguientes opciones describe mejor una fuente primaria?",
+    "opciones": [
+      "Un análisis crítico de una obra literaria",
+      "Una carta escrita por un autor famoso",
+      "Un libro de texto universitario",
+      "Un artículo de revista que resume investigaciones científicas"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es una característica clave de las fuentes primarias?",
+    "opciones": [
+      "Son documentos originales y no interpretados",
+      "Recogen datos de diversas fuentes secundarias",
+      "Proporcionan evidencia indirecta para la investigación",
+      "Contienen resúmenes de información secundaria"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes NO es un ejemplo de una fuente primaria?",
+    "opciones": [
+      "Un diario personal escrito durante una guerra",
+      "Un informe original de un experimento científico",
+      "Una biografía escrita por un historiador moderno",
+      "Una fotografía de un evento histórico"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes afirmaciones sobre las fuentes primarias es FALSA?",
+    "opciones": [
+      "Representan la fuente más valiosa en el contexto de una investigación",
+      "Están elaboradas por individuos que han llevado a cabo investigaciones originales",
+      "Pueden incluir microformas, videocasetes y discos compactos",
+      "Siempre están interpretadas y evaluadas por terceros"
+    ],
+    "respuesta_correcta": 3
+  },
+  {
+    "pregunta": "¿Cuál es el propósito principal de utilizar fuentes primarias en una investigación?",
+    "opciones": [
+      "Confirmar hallazgos de fuentes secundarias",
+      "Proporcionar evidencia directa y no filtrada",
+      "Resumir información de diversas fuentes",
+      "Facilitar el acceso a materiales de referencia"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes opciones describe mejor una fuente secundaria?",
+    "opciones": [
+      "Un documento original sin alteraciones",
+      "Un análisis crítico de una obra literaria",
+      "Un manual universitario",
+      "Una carta de un soldado de guerra"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes afirmaciones sobre las fuentes secundarias es verdadera?",
+    "opciones": [
+      "Siempre ofrecen información original y sin modificar",
+      "Facilitan y optimizan el acceso a la información primaria",
+      "Se fundamentan únicamente en documentos terciarios",
+      "No se utilizan para confirmar hallazgos de investigaciones"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes ejemplos NO es una fuente secundaria?",
+    "opciones": [
+      "Una biografía de un personaje histórico",
+      "Una traducción de un artículo científico",
+      "Un manual universitario",
+      "Un artículo de revista sobre una investigación"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es el propósito principal de una fuente terciaria?",
+    "opciones": [
+      "Proporcionar información original y sin filtrar",
+      "Servir como guía para acceder a fuentes secundarias",
+      "Realizar investigaciones originales",
+      "Ofrecer evidencias directas para estudios específicos"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes ejemplos es una fuente terciaria?",
+    "opciones": [
+      "Un artículo de Wikipedia sobre la Revolución Industrial",
+      "Una carta personal de un explorador",
+      "Un estudio original publicado en una revista científica",
+      "Un libro de texto que analiza teorías filosóficas"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes criterios NO es tan importante para evaluar la validez de la información?",
+    "opciones": [
+      "Autor",
+      "Dominio",
+      "Número de visitas",
+      "Calidad"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes afirmaciones sobre los dominios de los sitios web es correcta?",
+    "opciones": [
+      "Las URL que terminan en .com son generalmente más fiables que las que terminan en .gov",
+      "Las URL que terminan en .edu suelen ser gestionadas por instituciones educativas",
+      "Las URL que terminan en .org son siempre de fuentes gubernamentales",
+      "Las URL que terminan en .mil son gestionadas por proveedores de servicios de red"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes aspectos es crucial en el proceso de verificación de los detalles de la información?",
+    "opciones": [
+      "El diseño gráfico del sitio web",
+      "La claridad en el método de obtención de la información",
+      "La popularidad del autor en las redes sociales",
+      "El número de enlaces externos en el artículo"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué indica la verificación por parte de expertos en la evaluación de la información?",
+    "opciones": [
+      "Que el autor es el único responsable del contenido",
+      "Que el artículo ha sido revisado y validado por autoridades reconocidas en el campo",
+      "Que la información ha sido publicada sin ningún tipo de revisión",
+      "Que el contenido es accesible solo para expertos en la materia"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Por qué es importante considerar la vigencia de la información?",
+    "opciones": [
+      "Para asegurarse de que el autor es reconocido",
+      "Para confirmar que la información no contiene errores gramaticales",
+      "Para descartar información obsoleta y utilizar datos más recientes",
+      "Para evaluar la popularidad del sitio web"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es un indicador común de la calidad del contenido informativo?",
+    "opciones": [
+      "El uso de un lenguaje extremadamente técnico",
+      "La ausencia de errores gramaticales y ortográficos",
+      "La cantidad de imágenes en el sitio web",
+      "La longitud del artículo"
+    ],
+    "respuesta_correcta": 1
+  }
+]
