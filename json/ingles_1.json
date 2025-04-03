@@ -1,0 +1,202 @@
+[
+  {
+    "pregunta": "¿Qué es considerado el núcleo del proceso lector según el modelo interactivo de lectura?",
+    "opciones": [
+      "La velocidad de lectura",
+      "La descodificación",
+      "La comprensión lectora",
+      "La memorización de vocabulario"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Qué recomiendan los investigadores para mejorar la capacidad lectora de los estudiantes?",
+    "opciones": [
+      "Enseñar más vocabulario",
+      "Repetir estructuras gramaticales",
+      "Enseñar estrategias inferenciales",
+      "Ampliar conocimientos culturales"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes no es un desafío que los individuos pueden enfrentar al intentar comprender un texto en una lengua extranjera?",
+    "opciones": [
+      "Comprender una palabra nueva",
+      "Identificar la relación entre oraciones",
+      "Escribir un ensayo sobre el texto",
+      "Comprender la idea central del texto"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Qué estrategia implica la capacidad de seleccionar las palabras e ideas más útiles para la comprensión del texto?",
+    "opciones": [
+      "Predicción",
+      "Muestreo",
+      "Inferencia",
+      "Construcción"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "Según el texto, la falta de enseñanza de estrategias específicas para la lectura de textos puede resultar en:",
+    "opciones": [
+      "Mejora de la velocidad de lectura",
+      "Debilitamiento de la comprensión lectora",
+      "Incremento en el interés cultural",
+      "Reducción del esfuerzo de los estudiantes"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué es lo que se recomienda enseñar a los estudiantes para que se conviertan en lectores autónomos y eficaces?",
+    "opciones": [
+      "Vocabulario técnico",
+      "Inferencias",
+      "Historia de la lengua",
+      "Expresiones idiomáticas"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "Según Cassany, Luna y Sanz (2000), la inferencia es la habilidad de:",
+    "opciones": [
+      "Comprender aspectos del texto a partir del significado del resto",
+      "Memorizar palabras nuevas",
+      "Leer rápidamente",
+      "Traducir texto a otro idioma"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes no es una razón por la que las inferencias son cruciales en la lectura?",
+    "opciones": [
+      "Superar lagunas de comprensión",
+      "Facilitar la memorización literal",
+      "Complementar información no explícita",
+      "Adquirir autonomía en la lectura"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué estrategia mencionada se relaciona con anticipar el contenido de un texto, como el final de una historia?",
+    "opciones": [
+      "Muestreo",
+      "Inferencia",
+      "Generalización",
+      "Predicción"
+    ],
+    "respuesta_correcta": 3
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes opciones describe correctamente el concepto de inferencia en la lectura?",
+    "opciones": [
+      "Descifrar palabras complejas",
+      "Entender solo la información superficial",
+      "Juzgar, razonar o deducir información no explícita",
+      "Leer de manera secuencial"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "Según el texto, ¿qué debería hacer el alumno para superar la dificultad de las palabras desconocidas?",
+    "opciones": [
+      "Buscar el significado de todas las palabras nuevas",
+      "Aprender a distinguir entre palabras importantes y no importantes",
+      "Memorizar todo el texto",
+      "Traducir el texto palabra por palabra"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué sugieren Cassany, Luna y Sanz sobre las palabras relevantes en un texto?",
+    "opciones": [
+      "Son siempre las primeras palabras del texto",
+      "No tienen importancia en la comprensión global",
+      "Son siempre palabras técnicas",
+      "Son las que se repiten varias veces y ocupan lugares destacados"
+    ],
+    "respuesta_correcta": 3
+  },
+  {
+    "pregunta": "¿Qué indican las palabras de introducción?",
+    "opciones": [
+      "La relación causa-efecto",
+      "El inicio de una idea",
+      "La comparación de conceptos",
+      "La conclusión de un párrafo"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes opciones muestra una palabra de inclusión?",
+    "opciones": [
+      "However",
+      "As a result",
+      "Moreover",
+      "Alternatively"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "Según Van Dijk (1983), ¿qué regla permite eliminar información incidental, irrelevante o redundante?",
+    "opciones": [
+      "Supresión",
+      "Generalización",
+      "Construcción",
+      "Interpretación"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes palabras se utiliza para mostrar oposición o diferencias entre ideas?",
+    "opciones": [
+      "As well as",
+      "Like",
+      "Nevertheless",
+      "In addition"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Qué palabra se utiliza para anunciar que se va a presentar o explicar algo?",
+    "opciones": [
+      "Although",
+      "Before",
+      "Originally",
+      "Next"
+    ],
+    "respuesta_correcta": 3
+  },
+  {
+    "pregunta": "Según el texto, ¿qué implica aplicar las macrorreglas en la lectura?",
+    "opciones": [
+      "Eliminar datos sin más",
+      "Integrar la información en un esquema más general",
+      "Memorizar el texto completo",
+      "Traducir el texto palabra por palabra"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "Fill in the blank with the correct connector: I wanted to take an umbrella __________ it started to rain.",
+    "opciones": [
+      "Along with",
+      "but",
+      "and",
+      "because"
+    ],
+    "respuesta_correcta": 3
+  },
+  {
+    "pregunta": "Choose the correct connector to complete the sentence: We wanted to go to the beach, __________ the weather was not good.",
+    "opciones": [
+      "consequently",
+      "but",
+      "in addition",
+      "therefore"
+    ],
+    "respuesta_correcta": 1
+  }
+]

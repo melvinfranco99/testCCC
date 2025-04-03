@@ -1,0 +1,102 @@
+[
+  {
+    "pregunta": "¿Cuál de las siguientes opciones NO se recomienda para conocer al público cuando vas a dar una presentación?",
+    "opciones": [
+      "Realizar estudios demográficos",
+      "Usar anécdotas personales",
+      "Seguir las actividades diarias de los participantes",
+      "Realizar entrevistas cara a cara"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Por qué es crucial preparar buen contenido en una presentación?",
+    "opciones": [
+      "Para aumentar la duración de la presentación",
+      "Para demostrar habilidades técnicas",
+      "Para motivar intelectual y emocionalmente a la audiencia",
+      "Para incluir más ayudas visuales"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Qué puede comprometer la eficacia del mensaje en una presentación oral?",
+    "opciones": [
+      "Una estructura bien organizada",
+      "Una misión clara y metas específicas",
+      "Transiciones suaves entre puntos",
+      "Una presentación mal organizada"
+    ],
+    "respuesta_correcta": 3
+  },
+  {
+    "pregunta": "¿Qué se debe equilibrar según la estrategia de desarrollar una comunicación dinámica?",
+    "opciones": [
+      "Preparación y ejecución",
+      "Ayudas visuales y contenido",
+      "Longitud y profundidad",
+      "Humor y seriedad"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué técnica NO se sugiere para hacer el contenido de una presentación memorable?",
+    "opciones": [
+      "Utilizar mnemotécnicos y metáforas",
+      "Repetir y parafrasear la información",
+      "Ignorar la retroalimentación del público",
+      "Usar humor y novedad"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Qué implica la estrategia de mejora total de la calidad (TQI)?",
+    "opciones": [
+      "Practicar ocasionalmente y recibir retroalimentación de una sola fuente",
+      "Focalizarse únicamente en el contenido sin considerar la comunicación",
+      "Práctica continua, análisis, evaluación y ajuste",
+      "Comenzar a practicar justo antes de la presentación"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿En qué se basa la credibilidad de un ponente según los autores?",
+    "opciones": [
+      "En su carisma y presencia escénica",
+      "En su honestidad, autenticidad y capacidad para ceñirse al contenido prometido",
+      "En la cantidad de datos que presenta",
+      "En su capacidad para contar chistes"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué técnica puede facilitar la afinidad entre el orador y la audiencia?",
+    "opciones": [
+      "El uso de datos estadísticos",
+      "El uso de humor autodespectivo",
+      "La inclusión de gráficos complejos",
+      "La presentación de currículums"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué es más importante para un orador efectivo que simplemente transmitir información?",
+    "opciones": [
+      "Conectar y aprender de su audiencia",
+      "Memorizar todo el contenido",
+      "Tener una voz fuerte",
+      "Hacer presentaciones largas"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué transmiten los oradores expertos a su público?",
+    "opciones": [
+      "Datos e información",
+      "Energía y motivación",
+      "Instrucciones detalladas",
+      "Críticas constructivas"
+    ],
+    "respuesta_correcta": 1
+  }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "Cuando se inicia sesión desde un terminal, para cambiar de usuario solamente se ejecuta el fichero .bashrc.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "El administrador de usuarios no tiene capacidad para establecer el sistema de autorías.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Los grupos locales se usan para organizar las cuentas de usuario de dominio.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Como requisitos de seguridad, la longitud mínima de una contraseña debe ser de ocho caracteres.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "No es posible incluir caracteres alfanuméricos en contraseñas.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Dentro del sistema, cada usuario pertenece a un tipo de conjunto de usuarios denominado grupo de usuario y podrá pertenecer a tantos como sea necesario, adquiriendo los permisos de todos ellos.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "El archivo que contiene el perfil obligado de usuario y que solo lo puede cambiar el administrador es ntuser.dat.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Una dirección IP está formada con una longitud de 32 bits.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "“netsh” es un comando que activa, desactiva y renueva el DHCP.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "El comando que nos permite ejecutar la MMC que gestiona las directivas de seguridad local de usuarios es %windir%\\System32\\secpol.msc.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "pregunta": "Qué es un sistema informático",
+    "opciones": [
+      "Hardware + Software + Factor humano",
+      "Solo el hardware y software",
+      "Internet y dispositivos móviles",
+      "Software y redes de comunicación"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Cuántas generaciones de ordenadores hay",
+    "opciones": [
+      "6",
+      "4",
+      "5",
+      "7"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "A qué generación corresponden los transistores",
+    "opciones": [
+      "2ª",
+      "1ª",
+      "3ª",
+      "4ª"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué unidad de la arquitectura de Von Neumann se considera el cerebro del ordenador",
+    "opciones": [
+      "CPU",
+      "UAL",
+      "RAM",
+      "BIOS"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué arquitectura de procesador utiliza un grupo reducido de instrucciones",
+    "opciones": [
+      "RISC",
+      "CISC",
+      "x86",
+      "ARM"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué memoria se sitúa entre el procesador y la memoria principal",
+    "opciones": [
+      "Memoria caché",
+      "Memoria RAM",
+      "Disco duro",
+      "BIOS"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué mide la frecuencia del reloj",
+    "opciones": [
+      "El número de impulsos que determinan la velocidad de un equipo",
+      "La cantidad de datos que puede almacenar la memoria RAM",
+      "La resolución de la pantalla",
+      "La velocidad del disco duro"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué nombre recibe el firmware de un ordenador",
+    "opciones": [
+      "BIOS",
+      "CPU",
+      "UAL",
+      "DDR"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué tipo de memoria RAM utilizan los portátiles",
+    "opciones": [
+      "SO-DIMM",
+      "DDR3",
+      "GDDR",
+      "SRAM"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué se utiliza para realizar configuraciones físicas en la placa base",
+    "opciones": [
+      "Jumper",
+      "BIOS",
+      "Chipset",
+      "SATA"
+    ],
+    "respuesta_correcta": 0
+  }
+]

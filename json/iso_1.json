@@ -1,0 +1,202 @@
+[
+  {
+    "pregunta": "Qué es un sistema operativo",
+    "opciones": [
+      "Es un conjunto de programas destinados a permitir la comunicación del usuario con un ordenador y a gestionar sus recursos de manera eficiente.",
+      "Una aplicación web moderna.",
+      "Una función de los navegadores de internet.",
+      "Una herramienta para diseño gráfico."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Cuáles son los requisitos de usuario cuando se construye un sistema operativo",
+    "opciones": [
+      "Una técnica de programación orientada a objetos.",
+      "Un servicio exclusivo de redes sociales.",
+      "Una interfaz gráfica para juegos.",
+      "El sistema debe ser fácil de usar y de aprender, además de ser seguro, rápido y adecuado al uso al que se le quiere destinar."
+    ],
+    "respuesta_correcta": 3
+  },
+  {
+    "pregunta": "Cuáles son las estructuras de los sistemas operativos",
+    "opciones": [
+      "Una parte del diseño de páginas web.",
+      "Una aplicación web moderna.",
+      "Una técnica de programación orientada a objetos.",
+      "Monolítica, jerárquica o de capas, máquina virtual, cliente-servidor."
+    ],
+    "respuesta_correcta": 3
+  },
+  {
+    "pregunta": "Qué es la estructura monolítica",
+    "opciones": [
+      "Un servicio exclusivo de redes sociales.",
+      "Es la estructura de los primeros sistemas operativos, constituidos fundamentalmente por un solo programa compuesto por un conjunto de rutinas entrelazadas de tal forma que cada una puede llamar a cualquier otra.",
+      "Una técnica de programación orientada a objetos.",
+      "Una interfaz gráfica para juegos."
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "Qué son los sistemas de estructura jerárquica",
+    "opciones": [
+      "Una parte del diseño de páginas web.",
+      "La estructura jerárquica o de capas consiste en organizar el sistema operativo con una jerarquía de capas, cada una construida sobre la que está bajo ella.",
+      "Una herramienta para escribir código.",
+      "Un servicio exclusivo de redes sociales."
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "Qué son los sistemas operativos de estructura de máquinas virtuales",
+    "opciones": [
+      "Una herramienta para escribir código.",
+      "Hacemos referencia a un tipo de sistemas operativos que presentan una interface para cada proceso, mostrando una máquina que parece idéntica a la máquina real subyacente.",
+      "Una herramienta para diseño gráfico.",
+      "Una técnica de programación orientada a objetos."
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "Qué son los sistemas operativos con estructura de cliente-servidor",
+    "opciones": [
+      "Una parte del diseño de páginas web.",
+      "Es el tipo más reciente de sistemas operativos, que puede ser ejecutado en la mayoría de los ordenadores independientemente de su tamaño, sirve para toda clase de aplicaciones; por tanto, es de propósito general y cumple con las mismas actividades que los sistemas operativos convencionales.",
+      "Un servicio exclusivo de redes sociales.",
+      "Una aplicación web moderna."
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "Qué es el kernel",
+    "opciones": [
+      "Un servicio exclusivo de redes sociales.",
+      "Es la parte central de un sistema operativo y es el que se encarga de realizar toda la comunicación segura entre el software y el hardware del ordenador.",
+      "Una interfaz gráfica para juegos.",
+      "Una herramienta para diseño gráfico."
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "Qué es un proceso",
+    "opciones": [
+      "Un sistema de archivos distribuido.",
+      "Es un programa o tarea en ejecución al cual el sistema operativo asigna recursos y controla su ejecución. Se denomina hilo o hebra a un punto de ejecución de un proceso.",
+      "Una interfaz gráfica para juegos.",
+      "Una aplicación web moderna."
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "Qué es un sistema operativo monousuario",
+    "opciones": [
+      "Los recursos hardware y el software que se están utilizando están a disposición de un único usuario en un único ordenador sin importar el número de procesos o tareas que el usuario pueda ejecutar en un mismo instante de tiempo.",
+      "Una aplicación web moderna.",
+      "Una función de los navegadores de internet.",
+      "Un componente de seguridad de redes."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Características de la estructura monolítica",
+    "opciones": [
+      "Una función de los navegadores de internet.",
+      "Construcción del programa final a base de módulos compilados separadamente que se unen a través del ligador, buena definición de parámetros, carencia de protecciones y privilegios, generalmente hechos a medida.",
+      "Un componente de seguridad de redes.",
+      "Una herramienta para diseño gráfico."
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "Cuál es la jerarquía de la estructura de los sistemas de capas",
+    "opciones": [
+      "Un componente de seguridad de redes.",
+      "Un sistema de archivos distribuido.",
+      "Un servicio exclusivo de redes sociales.",
+      "Capa 1: kernel; capa 2: manejo de memoria; capa 3: E/S; capa 4: sistemas de archivo; capa 5: interfaz de usuario"
+    ],
+    "respuesta_correcta": 3
+  },
+  {
+    "pregunta": "Cuáles son las funcionalidades del kernel",
+    "opciones": [
+      "Una parte del diseño de páginas web.",
+      "Un sistema de archivos distribuido.",
+      "La comunicación entre programas y hardware, gestión de tareas, gestión del hardware y de los núcleos.",
+      "Una herramienta para escribir código."
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "Qué es el hardware",
+    "opciones": [
+      "Una herramienta para diseño gráfico.",
+      "Una herramienta para escribir código.",
+      "Un componente de seguridad de redes.",
+      "Se refiere a la memoria, procesador, periférico, forma de almacenamiento, etc."
+    ],
+    "respuesta_correcta": 3
+  },
+  {
+    "pregunta": "Cuáles son los estados de los procesos",
+    "opciones": [
+      "Una herramienta para escribir código.",
+      "Una técnica de programación orientada a objetos.",
+      "Preparado, activo, bloqueado o suspendido, muerto, nonato o ignorado.",
+      "Una función de los navegadores de internet."
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "Qué nos permite hacer la pestaña servicios de Windows",
+    "opciones": [
+      "Una técnica de programación orientada a objetos.",
+      "Un servicio exclusivo de redes sociales.",
+      "Podemos administrar los servicios del sistema.",
+      "Una interfaz gráfica para juegos."
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "Qué son los ficheros",
+    "opciones": [
+      "Un componente de seguridad de redes.",
+      "Son la estructura utilizada para alojar datos o instrucciones que se almacenan en soportes externos, para poder ser procesada por el sistema mediante un determinado programa.",
+      "Una interfaz gráfica para juegos.",
+      "Una aplicación web moderna."
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "Cómo se clasifican los sistemas operativos según el tiempo de respuesta",
+    "opciones": [
+      "Un componente de seguridad de redes.",
+      "Procesamiento por lotes (batch), sistemas de tiempo compartido, de tiempo real, híbrido.",
+      "Una aplicación web moderna.",
+      "Una interfaz gráfica para juegos."
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "Qué es un freeware",
+    "opciones": [
+      "Un sistema de archivos distribuido.",
+      "Son programas que permiten la redistribución, pero no la modificación, y a veces incluyen su código fuente. Estos programas no son software completamente libre de uso.",
+      "Una herramienta para escribir código.",
+      "Una aplicación web moderna."
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "Virtual Box y VMware",
+    "opciones": [
+      "Un componente de seguridad de redes.",
+      "Aplicaciones que nos permiten instalar una plataforma de virtualización",
+      "Una parte del diseño de páginas web.",
+      "Una técnica de programación orientada a objetos."
+    ],
+    "respuesta_correcta": 1
+  }
+]

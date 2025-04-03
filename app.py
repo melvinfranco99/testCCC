@@ -3,11 +3,12 @@ import tkinter as tk
 from tkinter import messagebox, ttk
 import random
 import os
+import datetime
 
 class TestApp:
     def __init__(self, master):
         self.master = master
-        self.master.title("Inicio de la Aplicación")
+        self.master.title("Practicar Test CCC")
         self.master.state('zoomed')
         self.history = []
         self.future = []
@@ -58,23 +59,38 @@ class TestApp:
         self.current_view = self.inicio_app
         self.current_args = ()
 
-        nav = ttk.Frame(self.master)
-        nav.pack(anchor="nw", padx=10, pady=10)
+        contenedor_principal = ttk.Frame(self.master)
+        contenedor_principal.pack(fill="both", expand=True)
+
+        # === Panel izquierdo con navegación y botones ===
+        panel_izquierdo = ttk.Frame(contenedor_principal)
+        panel_izquierdo.pack(side="left", fill="both", expand=True, padx=20, pady=20)
+
+        nav = ttk.Frame(panel_izquierdo)
+        nav.pack(anchor="nw")
         self.back_btn = ttk.Button(nav, text="←", command=self.go_back, style='Nav.TButton')
         self.back_btn.pack(side="left", padx=5)
         self.forward_btn = ttk.Button(nav, text="→", command=self.go_forward, style='Nav.TButton')
         self.forward_btn.pack(side="left")
 
-        ttk.Label(self.master, text="Seleccione una sección:", style='Title.TLabel').pack(pady=50)
+        ttk.Label(panel_izquierdo, text="Seleccione una asignatura:", style='Title.TLabel').pack(pady=50)
 
         secciones = ["PAR", "ISO", "FH", "GBD", "Ingles", "IPE", "LM"]
-        btn_frame = ttk.Frame(self.master)
+        btn_frame = ttk.Frame(panel_izquierdo)
         btn_frame.pack()
 
         for sec in secciones:
             ttk.Button(btn_frame, text=sec, width=20, command=lambda s=sec: self.navigate(self.mostrar_subtemas, s)).pack(pady=10)
 
+        # === Panel derecho con resumen ===
+        panel_derecho = ttk.Frame(contenedor_principal)
+        panel_derecho.pack(side="right", fill="y", padx=20, pady=20)
+
+        self.mostrar_resumen_test(panel_derecho)
+
         self.update_nav_buttons()
+
+
 
     def mostrar_subtemas(self, seccion):
         self.clear_window()
@@ -144,7 +160,7 @@ class TestApp:
         self.forward_btn = ttk.Button(nav, text="→", command=self.go_forward, style='Nav.TButton')
         self.forward_btn.pack(side="left")
 
-        nombre_archivo = f"{seccion.lower()}_{numero_tema}.json"
+        nombre_archivo = f"./json/{seccion.lower()}_{numero_tema}.json"
         if not os.path.isfile(nombre_archivo):
             ttk.Label(self.master, text=f"No hay test disponible para {seccion} Tema {numero_tema}.", font=('Segoe UI', 14)).pack(pady=50)
             return
@@ -227,10 +243,80 @@ class TestApp:
 
         messagebox.showinfo("Resultado", f"Has acertado {correctas} de {total} preguntas.\nNota final: {nota}/10.")
 
+        datos_resultado = {
+            "asignatura": self.current_args[0],
+            "tema": self.current_args[1],
+            "nota": nota,
+            "fecha": datetime.datetime.now().isoformat()
+        }
+
+        archivo_resultados = "resultados_test.json"
+        if os.path.exists(archivo_resultados):
+            with open(archivo_resultados, "r", encoding="utf-8") as f:
+                resultados = json.load(f)
+        else:
+            resultados = []
+
+        resultados.append(datos_resultado)
+
+        with open(archivo_resultados, "w", encoding="utf-8") as f:
+            json.dump(resultados, f, indent=4)
+        
+        self.navigate(self.inicio_app)
+
+
 
     def clear_window(self):
         for widget in self.master.winfo_children():
             widget.destroy()
+
+    def mostrar_resumen_test(self, parent_frame=None):
+        if parent_frame is None:
+            parent_frame = self.master
+            
+        resumen_frame = ttk.LabelFrame(parent_frame, text="Resumen de Tests Realizados", padding=15)
+        resumen_frame.pack(fill="y", expand=False)
+
+        archivo_resultados = "resultados_test.json"
+        if not os.path.exists(archivo_resultados):
+            ttk.Label(resumen_frame, text="No hay tests realizados todavía.").pack()
+            return
+
+        with open(archivo_resultados, "r", encoding="utf-8") as f:
+            resultados = json.load(f)
+
+        total_tests = len(resultados)
+        ttk.Label(resumen_frame, text=f"📝 Total: {total_tests}", font=("Segoe UI", 12, "bold")).pack(anchor="w", pady=5)
+
+        resumen = {}
+        for r in resultados:
+            asignatura = r["asignatura"]
+            tema = f"T{r['tema']}"
+            nota = r["nota"]
+
+            if asignatura not in resumen:
+                resumen[asignatura] = {
+                    "total": 0,
+                    "temas": {}
+                }
+
+            resumen[asignatura]["total"] += 1
+            if tema not in resumen[asignatura]["temas"]:
+                resumen[asignatura]["temas"][tema] = {"aprobados": 0, "suspendidos": 0}
+
+            if nota >= 5:
+                resumen[asignatura]["temas"][tema]["aprobados"] += 1
+            else:
+                resumen[asignatura]["temas"][tema]["suspendidos"] += 1
+
+        for asignatura, datos in resumen.items():
+            ttk.Label(resumen_frame, text=f"📘 {asignatura}: {datos['total']} tests", font=("Segoe UI", 11, "bold")).pack(anchor="w", pady=(10, 2))
+            for tema, resultados_tema in datos["temas"].items():
+                aprobado = resultados_tema['aprobados']
+                suspendido = resultados_tema['suspendidos']
+                ttk.Label(resumen_frame, text=f"   {tema} ➤ ✅ {aprobado}  ❌ {suspendido}", font=("Segoe UI", 10)).pack(anchor="w")
+
+
 
 if __name__ == "__main__":
     root = tk.Tk()

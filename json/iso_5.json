@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "Un directorio puede ser a la vez directorio y subdirectorio.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Si Windows está instalado en C: entonces “%SystemDrive%\\Windows” y “C:\\Windows” es lo mismo.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "El usuario Alberto tiene su carpeta personal en ~/Alberto.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "La carpeta de Archivos de programa x86 aparece en equipos con una versión de Windows de 32b.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "El fichero /etc/fstab permite automatizar las tareas de montaje y desmontaje de los diferentes dispositivos.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "La carpeta Perflogs puede borrarse sin problemas si no van a hacerse registros de actividad.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Cada usuario dispone de dos carpetas propias: una para archivos públicos y otra para archivos privados.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "La funcionalidad de comprobación de errores verifica que los datos que contienen los discos sean los correctos.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Los niveles RAID más comúnmente usados son RAID 0, RAID 1 y RAID 5.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Para cambiar algunos atributos de un archivo en Windows se hace a través del comando “chattr”.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "El modelo entidad-relación consiste en un método de modelado conceptual del universo de discurso.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Una clave es un atributo que identifica de forma única cada ocurrencia de una entidad.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Se definen tres tipos de cardinalidades, máxima, mínima y media.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Una relación reflexiva o recursiva relaciona una entidad consigo misma.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "La relación de jerarquía se puede dar por generalización o especialización.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Los atributos se utilizan para detallar las entidades asignándoles propiedades cuantitativas.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Existen diez formas normales.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Existen seis niveles de normalización.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Una relación se representa por una tabla unidimensional.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "La clave foránea o ajena (foreign key) también denominada “integridad referencial”, se utilizan para enlazar relaciones de una base de datos.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    }
+]

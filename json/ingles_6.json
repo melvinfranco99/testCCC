@@ -1,0 +1,202 @@
+[
+  {
+    "pregunta": "¿Qué implica la comprensión de argumentos?",
+    "opciones": [
+      "El uso estratégico del lenguaje para entretener",
+      "El uso estratégico del lenguaje para construir y responder a argumentos, anticipar objeciones y persuadir",
+      "El uso del lenguaje para escribir poesía",
+      "El uso del lenguaje para narrar historias"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué es la argumentación?",
+    "opciones": [
+      "Un proceso solitario de reflexión interna",
+      "Un proceso social en el que los hablantes intercambian ideas sobre temas controvertidos",
+      "Un método para escribir ensayos",
+      "Una técnica para mejorar la memoria"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué requiere la argumentación?",
+    "opciones": [
+      "La formulación de puntos de vista, anticipación de críticas y presentación de evidencias",
+      "La redacción de informes detallados",
+      "La creación de presentaciones visuales",
+      "La recopilación de datos estadísticos"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es uno de los aspectos integrados en las prácticas argumentativas?",
+    "opciones": [
+      "Aspectos comunicativos e intelectuales",
+      "Técnicas de dibujo y pintura",
+      "Métodos de programación informática",
+      "Estrategias de marketing"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué habilidades abarca la capacidad de comprender y utilizar argumentos de manera efectiva?",
+    "opciones": [
+      "Habilidades de lectura avanzada, razonamiento y evaluación de la coherencia y validez de las premisas",
+      "Habilidades en diseño gráfico",
+      "Habilidades en la ejecución de tareas físicas",
+      "Habilidades en la gestión de proyectos"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué es un argumento?",
+    "opciones": [
+      "Una afirmación sin evidencia",
+      "Una conclusión o punto de vista respaldado por evidencia o justificación",
+      "Una historia inventada",
+      "Una opinión sin fundamento"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué es un contraargumento?",
+    "opciones": [
+      "Una afirmación sin relevancia",
+      "Una historia inventada",
+      "Una oposición directa y fundamentada al argumento original",
+      "Una explicación detallada"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es uno de los potenciales de la argumentación como forma de discurso?",
+    "opciones": [
+      "Construir conocimiento",
+      "Divertir a la audiencia",
+      "Confundir a los interlocutores",
+      "Generar polémica innecesaria"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Cuáles son los modos en que puede llevarse a cabo la argumentación?",
+    "opciones": [
+      "De forma oral y escrita",
+      "Solo de forma oral",
+      "Solo de forma escrita",
+      "Mediante gestos"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué debe hacer el autor en la argumentación escrita?",
+    "opciones": [
+      "Anticipar a su audiencia y transformar su pensamiento a través del proceso de redacción",
+      "Recitar el contenido",
+      "Hacer dibujos",
+      "Presentar opiniones personales sin estructura"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué implica entender un argumento?",
+    "opciones": [
+      "Identificar información básica, reconstruir cómo se conectan las ideas, hacer inferencias y evaluar la coherencia y validez de las premisas",
+      "Memorizar datos",
+      "Redactar informes",
+      "Crear un argumento"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿En qué contextos es crucial la capacidad de construir y defender argumentos en el ámbito profesional?",
+    "opciones": [
+      "En la escritura creativa",
+      "En reuniones, presentaciones, informes, propuestas y correos electrónicos",
+      "En actividades deportivas",
+      "En la decoración de interiores"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué requiere la argumentación oral en el ámbito profesional?",
+    "opciones": [
+      "La capacidad de memorizar argumentos",
+      "La capacidad de hablar",
+      "La capacidad de escuchar",
+      "La capacidad de construir y defender argumentos de manera clara y persuasiva"
+    ],
+    "respuesta_correcta": 3
+  },
+  {
+    "pregunta": "¿Qué se requiere para tomar decisiones informadas en el entorno profesional?",
+    "opciones": [
+      "Intuición",
+      "Suerte",
+      "Argumentos sólidos",
+      "Opiniones subjetivas"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Qué permite justificar las decisiones ante los interesados en el ámbito profesional?",
+    "opciones": [
+      "Articular argumentos de forma clara y persuasiva",
+      "Articular argumentos persuasivos pero sin dejarlos claros",
+      "Redactar informes breves",
+      "Evitar el tema"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué contribuye a un entorno de trabajo más armonioso y colaborativo?",
+    "opciones": [
+      "Divertirse sin control",
+      "Evitar la comunicación",
+      "Crear tensiones",
+      "Presentar argumentos bien estructurados y responder adecuadamente a las objeciones"
+    ],
+    "respuesta_correcta": 3
+  },
+  {
+    "pregunta": "¿Qué es esencial para el desarrollo y presentación de propuestas en el ámbito profesional?",
+    "opciones": [
+      "Argumentos claros y bien fundamentados",
+      "Esquemas",
+      "Historias personales",
+      "Datos sin análisis"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué aumenta la probabilidad de que una propuesta sea aceptada?",
+    "opciones": [
+      "Que contenga rasgos llamativos",
+      "Que esté estructurada de forma lógica y respaldada por evidencia sólida y relevante",
+      "Que sea breve y sin detalles",
+      "Que use un lenguaje plano"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué fomenta la reflexión crítica?",
+    "opciones": [
+      "La creatividad y la innovación",
+      "La memorización de datos relevantes",
+      "El entretenimiento sin propósito",
+      "La acumulación de información irrelevante"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué requiere proporcionar feedback efectivo?",
+    "opciones": [
+      "Un balance entre honestidad y empatía",
+      "Dibujos elaborados",
+      "Información sin contexto pero útil",
+      "Humor"
+    ],
+    "respuesta_correcta": 0
+  }
+]

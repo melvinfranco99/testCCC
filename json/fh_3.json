@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "El sistema de partición más utilizado en la actualidad es el MBR.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Apple utiliza el sistema HFS/HFS+ para la partición de discos.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Un Backup es una copia idéntica del original copiado.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "ODIN es la mejor opción tanto para Windows como para Linux para la creación de imágenes de respaldo.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "El gestor de arranque para Linux puede ser LILO o GRUB.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Las memorias auxiliares son dispositivos internos situados en el disco duro.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "En la actualidad se utilizan más frecuentemente los diferentes recursos que nos ofrece la red para guardar las imágenes.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "El sistema de recuperación de imágenes actual es complejo y es necesario siempre la intervención de un técnico para poder recuperarlas.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Los datos de respaldo de equipos se pueden almacenar únicamente en local.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "La conversión de máquina física a virtual se denomina V2P.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    }
+]

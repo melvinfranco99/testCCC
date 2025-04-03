@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "El lenguaje DCL manipula el contenido de las bases de datos.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "La cláusula WHERE es obligatoria.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "En una consulta SELECT se debe indicar qué columnas queremos que nos devuelva la ejecución y qué filas queremos seleccionar de la tabla origen.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Si queremos que en una consulta no aparezcan filas sin repeticiones, es necesario incluir la palabra clave DISTINCT inmediatamente después de SELECT.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Para la creación de una base de datos podemos utilizar la cláusula DATABASE o SCHEMA.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Para poder modificar una base de datos utilizamos la cláusula DROP.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "El componente CSV identifica tablas que son almacenadas en registros separados por comas.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "El componente ADD permite modificar el nombre y la definición de un atributo.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "El componente ENABLE KEYS permite desactivar la actualización de índices no únicos.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "La operación TRUNCATE no es realizada si existe un bloqueo activo en la tabla.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "La analógica toma valores absolutos de 0 y 1.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "La distorsión de retardo es un fenómeno característico de los medios no guiados.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "El protocolo NCP se utiliza para establecer compatibilidades con protocolos de nivel superior.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "El objetivo de la multiplexación es repartir el medio entre n usuarios de forma constante y predeterminada.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "El direccionamiento IP consiste en asignar direcciones cambiantes a cada equipo en internet.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "El protocolo ICMP surge para paliar la no fiabilidad del protocolo IP.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Las direcciones de IPv6 consta de 128 bits mientras que la de IPv4 consta de 32.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Entre funciones el nivel de transporte permite controlar el flujo.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "El protocolo TCO no está orientado a conexión.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "El modelo cliente/servidor se puede plantear en 2, 3 o varias capas.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    }
+]

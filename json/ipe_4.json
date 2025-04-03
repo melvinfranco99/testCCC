@@ -1,0 +1,102 @@
+[
+  {
+    "pregunta": "¿Cuál de los siguientes NO es un elemento sociodemográfico relevante para la empleabilidad?",
+    "opciones": [
+      "Edad",
+      "Género",
+      "Aficiones personales",
+      "Nivel de educación"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Qué tipo de estudios suelen tener mayor tasa de empleabilidad?",
+    "opciones": [
+      "Artes y humanidades",
+      "Ciencias sociales",
+      "Profesiones técnicas y ciencias de la salud",
+      "Todas tienen la misma tasa"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Qué son las competencias blandas?",
+    "opciones": [
+      "Habilidades técnicas específicas",
+      "Habilidades interpersonales y sociales",
+      "Conocimientos teóricos avanzados",
+      "Experiencia laboral extensa"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué herramienta ayuda a evaluar la situación personal para la búsqueda de empleo?",
+    "opciones": [
+      "Currículum vitae",
+      "Análisis DAFO",
+      "Entrevista de trabajo",
+      "Red profesional"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo principal del currículum vitae?",
+    "opciones": [
+      "Conseguir directamente el puesto de trabajo",
+      "Ser seleccionado para la siguiente fase del proceso de selección",
+      "Mostrar todas las habilidades y experiencias del candidato",
+      "Impresionar al seleccionador con un diseño llamativo"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué característica NO debe tener un currículum vitae?",
+    "opciones": [
+      "Ser creíble",
+      "Ser extenso y detallado",
+      "Ser personalizado y actualizado",
+      "Ser sencillo de leer"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué tipo de entrevista permite observar la capacidad de organización mental del candidato?",
+    "opciones": [
+      "Entrevista directa",
+      "Entrevista semidirecta",
+      "Entrevista grupal",
+      "Todas las anteriores"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "En una entrevista, ¿qué tipo de preguntas buscan conocer las habilidades interpersonales del candidato?",
+    "opciones": [
+      "Preguntas sobre formación académica",
+      "Preguntas sobre experiencia laboral",
+      "Preguntas en una entrevista grupal",
+      "Preguntas sobre salario esperado"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Qué se debe hacer en la fase de 'cierre' de una entrevista?",
+    "opciones": [
+      "Presentarse al entrevistador",
+      "Responder preguntas sobre experiencia laboral",
+      "Plantear dudas sobre el puesto o la empresa",
+      "Describir las aficiones personales"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes es una pregunta abierta en una entrevista?",
+    "opciones": [
+      "¿Cuál es su salario esperado?",
+      "¿Cómo se describe a sí mismo?",
+      "¿Tiene experiencia en este sector?",
+      "¿Cuál es su nivel de inglés?"
+    ],
+    "respuesta_correcta": 1
+  }
+]

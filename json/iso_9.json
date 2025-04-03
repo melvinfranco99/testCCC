@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "Cuantos más elementos se deban auditar, más lento funcionará el sistema.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "En Registros de aplicaciones y servicios > Internet Explorer podemos consultar los registros generados por una auditoría que controla el acceso de un grupo de usuarios a Internet Explorer.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Se pueden redirigir carpetas a ubicaciones diferentes, en función del grupo al que pertenezca el usuario.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Es posible crear un GPO por un lado, un contenedor por otro y, posteriormente, vincularlos.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Se puede crear un vínculo de un GPO al contenedor en el mismo momento que se crea el GPO.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "En sistemas Linux, la aplicación que resuelve su administración es “gpedit.msc”.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Los administradores no pueden agrupar, modificar o personalizar las directivas.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Las directivas pueden heredar contenedores padre, pero no contenedores hijo.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Los vínculos de un GPO solo pueden establecerse de forma manual.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Las plantillas administrativas se usan para administrar la configuración de parte del registro del sistema.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    }
+]
