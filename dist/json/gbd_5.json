@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "HeidiSQL es una herramienta multiplataforma capaz de soportar cualquier sistema gestor de base de datos.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "La sentencia INSERT es necesaria para sumar una nueva fila en una tabla.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "La sentencia UPDATE se utiliza para eliminar filas.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "A través de la sentencia UPDATE se pueden cambiar más de una columna.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "DELETE FROM nombre_tabla [WHERE filtro] nos permite eliminar filas de una tabla.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Los mecanismos y estrategias para permitir la utilización concurrente por diferentes usuarios de una misma base de datos son las transacciones.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "En MySQL la transacción comienza con el uso de la sentencia START TRANSACTION o BEGIN.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "La instrucción LOCK confirma de manera automática la modificación de tablas.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "La consistencia es una propiedad de las transacciones que asegura que una vez realizada la operación no se podrá cambiar.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "El bloqueo exclusivo se utiliza cuando todas las transacciones concurrentes son de lectura.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    }
+]

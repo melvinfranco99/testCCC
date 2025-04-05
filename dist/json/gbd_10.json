@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "Una base de datos distribuida es un grupo de sitios que, perteneciendo a un mismo sistema, se encuentra repartido en ordenadores diferentes pero pertenecientes a una misma red.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Una de las doce reglas de Date es la dependencia con respecto al hardware.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Para cumplir las condiciones de idoneidad se deben superar problemas como los controles de concurrencia.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "La escalabilidad es una ventaja de las bases de datos distribuidas.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Las técnicas de fragmentación vertical se caracterizan por dividir la relación en filas.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Las técnicas de fragmentación horizontal se caracterizan por dividir la relación en columnas.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "En la base de datos distribuida fragmentada y no duplicada cada nodo gestiona su propia base de datos.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "En la base de datos distribuida fragmentada y duplicada las bases de datos han sido duplicadas recíprocamente.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Para poder replicar hay que crear una cuenta para el esclavo.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Cuando se habla de replicar datos se trata de realizar copias de datos y almacenarlas en dos o más sitios.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    }
+]

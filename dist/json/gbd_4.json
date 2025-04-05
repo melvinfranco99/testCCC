@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "Una herramienta basada en reglas es SQL Analyze.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Una herramienta basada en costes es SQL*Expert.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "La consulta SELECT idEstudiante, avg(nota) FROM tExamenes WHERE avg (nota) >6 GROUP BY idEstudiante; realizada sobre la tabla tExamenes(idAsignatura, idEstudiante, nota, fecha) lista todos aquellos alumnos cuya media es mayor que 6.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "La media calculada por la función AVG es la media aritmética. Es decir, la suma de los valores dividido por el número de valores.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "COUNT(*) cuenta columnas en vez de valores.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Con la función INNER JOIN se pueden combinar más de dos tablas. En este caso se tiene que substituir la sintaxis de una tabla por un INNER JOIN completo.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "La cláusula INNER JOIN no puede contener una cláusula LEFT JOIN o RIGHT JOIN anidada.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "La cláusula RIGHT JOIN trae todos los datos de una primera tabla, a pesar de no tener correspondencia en la segunda tabla. Sin embargo, la cláusula LEFT JOIN trae todos los datos de una segunda tabla a pesar de no tener correspondencia en la primera.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Los predicados ANY o SOME son sinónimos.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "El test IN evalúa si el valor de la expresión es un valor incluido por la subconsulta.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    }
+]

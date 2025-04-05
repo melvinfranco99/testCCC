@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "Los elementos básicos de un proceso de comunicación son emisor, receptor y mensaje.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Si se aplica el teorema de numeración de la siguiente forma 1*2²+1*2¹+0*2º= 6, se está realizando la conversión de decimal a binario.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Al convertir el número 462 a binario, se necesita realizar ocho divisiones y el resultado es 111001110.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Una red MAN interconecta distintos nodos ubicados en distintos países.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "El cable coaxial consta de un núcleo de vidrio central a través del cual se propagan las ondas luminosas.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "En la topología en malla, si un cable falla, toda la red queda inutilizada.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "En el modelo OSI, la capa que, entre otras funciones, determina la mejor ruta para enviar los datos es la capa de red.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "En el modelo TCP/IP, la capa de transporte está compuesta por los protocolos UDP (sin conexión) o TCP (con conexión).",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "TCP/IP solo puede funcionar sobre redes Ethernet.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "La capa de enlace de datos Ethernet se divide en dos subcapas: LLC y CSMA/CD.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    }
+]

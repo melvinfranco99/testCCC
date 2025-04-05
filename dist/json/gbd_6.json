@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "Una de las principales ventajas de las vistas es la simplificación de uso por parte del usuario.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Una de las principales desventajas de las vistas son las restricciones de actualización.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "En los mecanismos de implementación de vistas, la estrategia de reescritura es la menos utilizada por los SGBD.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Para consultas sobre vistas simples, se recomienda usar la estrategia de implementación de vistas por materialización y para consultas sobre vistas complejas, la estrategia de reescritura.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Para que una vista sea actualizable, se tiene que producir una relación uno-a-uno entre los registros de la vista y los registros de la tabla subyacente.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Las tablas y las vistas no comparten el mismo espacio de nombres en la base de datos, por eso, una base de datos puede contener una tabla y una vista con el mismo nombre.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "El comando para crear un avista es CREATE.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Los sinónimos se utilizan para ocultar la identidad del objeto.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "El comando para crear un sinónimo es CREATE [FOR REPLACE] [PUBLIC] SYNONYM.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "El identificador DBLink se utiliza para la conexión local.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "pregunta": "¿Cuál de las siguientes NO es una tendencia actual en el mercado laboral?",
+    "opciones": [
+      "Aumento de la demanda de habilidades blandas.",
+      "Disminución del teletrabajo.",
+      "Crecimiento de los empleos verdes.",
+      "Expansión de trabajos flexibles a corto plazo."
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué se entiende por 'competencias laborales'?",
+    "opciones": [
+      "El conjunto de habilidades, conocimientos y aptitudes necesarios para desempeñar un trabajo.",
+      "Solo la experiencia previa en un puesto.",
+      "Únicamente las habilidades sociales y comunicativas.",
+      "La capacidad de memorizar información técnica."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes es una competencia blanda muy demandada?",
+    "opciones": [
+      "Capacidad de trabajo en equipo.",
+      "Dominio de idiomas extranjeros.",
+      "Habilidad para manejar maquinaria pesada.",
+      "Conocimiento avanzado de programación."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué papel juega la Inteligencia Artificial (IA) en el mercado laboral actual?",
+    "opciones": [
+      "Reduce la necesidad de trabajadores cualificados.",
+      "Elimina por completo los puestos de trabajo tradicionales.",
+      "Genera nuevos puestos de trabajo y requiere adaptación por parte de los trabajadores.",
+      "No tiene impacto significativo en el empleo."
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Qué requisito es indispensable para acceder a un empleo en la Administración Pública?",
+    "opciones": [
+      "Tener experiencia previa en el sector privado.",
+      "Poseer una titulación específica exigida en la convocatoria.",
+      "Ser menor de 30 años.",
+      "Dominar al menos tres idiomas extranjeros."
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué se entiende por 'empleos verdes'?",
+    "opciones": [
+      "Puestos de trabajo en empresas de tecnología.",
+      "Trabajos relacionados con la sostenibilidad y la lucha contra el cambio climático.",
+      "Empleos que ofrecen horarios flexibles.",
+      "Puestos en el sector de la jardinería y agricultura."
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es la diferencia principal entre aptitud y actitud?",
+    "opciones": [
+      "La aptitud es la habilidad para realizar una tarea, y la actitud es la disposición para realizarla.",
+      "La aptitud se mide por la experiencia, y la actitud por la formación.",
+      "La aptitud se desarrolla con la práctica, y la actitud es innata.",
+      "No hay diferencia, son términos intercambiables."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué factor impulsa el crecimiento de los trabajos flexibles a corto plazo?",
+    "opciones": [
+      "La falta de oportunidades de empleo a largo plazo.",
+      "La obsolescencia de las habilidades técnicas.",
+      "La reducción de costos para las empresas.",
+      "El deseo de los profesionales de tener mayor control sobre sus carreras."
+    ],
+    "respuesta_correcta": 3
+  },
+  {
+    "pregunta": "¿Qué se requiere para que una titulación extranjera sea válida en la Administración Pública?",
+    "opciones": [
+      "Traducirla al idioma oficial.",
+      "Obtener la credencial de homologación.",
+      "Presentar un certificado de experiencia laboral.",
+      "Realizar un examen de equivalencia."
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes NO es una competencia social?",
+    "opciones": [
+      "Comunicación asertiva.",
+      "Empatía.",
+      "Programación en Python.",
+      "Liderazgo."
+    ],
+    "respuesta_correcta": 2
+  }
+]

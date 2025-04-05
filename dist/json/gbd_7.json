@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "Los índices optimizan el rendimiento en la búsqueda de consultas en las bases de datos.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "SELECT es uno de los índices más utilizados en Oracle.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Los índices únicos utilizan la sentencia UNIQUE entre otras.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Para poder realizar búsquedas no sensibles a mayúsculas y minúsculas se utilizan los índices de clave primaria.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Oracle utiliza hasta tres índices concurrentes.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "En el plan de ejecución de sentencias se estudia “qué” solicitamos al realizar una consulta.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Las bases de datos se pueden vincular a Access.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "El optimizador basado en costes evalúa las reglas prefijadas en la búsqueda.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "El parámetro FIRST_ROWS es más rápido y preciso que ALL_ROWS.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Los hints son parámetros que influyen directamente en el optimizador.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    }
+]

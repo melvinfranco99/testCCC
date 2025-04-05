@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "Los mainframes son máquinas multiusuario de potencia reducida.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Existe una estructura y organización estricta para poder establecer centros de proceso de datos viables y operativos.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Un SAI tiene la doble función de regular el suministro eléctrico y suministrar corriente eléctrica en caso de interrupción de esta.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "A la hora de planificar la seguridad de un centro de proceso de datos se debe tener en cuenta el hardware, el software y la información.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Los racks son armarios abiertos que facilitan la ventilación de todos los elementos de hardware instalados en ellos.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Las soluciones en arquitectura de alta disponibilidad más relevantes en la actualidad se basan en sistemas Windows.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Tener al día el inventario de hardware favorece, entre otros aspectos, el aminoramiento del gasto.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "IObit Driver Booster es un programa de Código abierto para la sustitución o administración de hardware.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "El concepto de riesgo laboral se define en el artículo 4 de la Ley 31/1995, de Prevención de Riesgos Laborales.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "La evaluación de los riesgos es independiente de cada centro de trabajo.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    }
+]

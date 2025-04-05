@@ -1,0 +1,122 @@
+[
+  {
+    "pregunta": "Qué es la arquitectura cliente-servidor",
+    "opciones": [
+      "Modelo de aplicación distribuida en el que las tareas se reparten entre los proveedores de recursos o servicios, conocidos como servidores, y los solicitantes de estos, que son los clientes.",
+      "Una red privada para compartir juegos en línea.",
+      "Una interfaz gráfica para administrar sistemas locales.",
+      "Un modelo de programación orientado a objetos."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué son los grupos de trabajo",
+    "opciones": [
+      "Una de las posibles formas de organizar los equipos dentro de una red local.",
+      "Un conjunto de procesos del sistema operativo.",
+      "Una categoría de usuarios dentro de una aplicación web.",
+      "Una estructura jerárquica para crear redes en la nube."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Cuáles son las características de los grupos de trabajo",
+    "opciones": [
+      "Relación entre equipos es de igual a igual, deben estar en la misma red local, el número de equipos suele ser bajo y cada equipo tiene su cuenta de usuario local.",
+      "Todos los equipos están controlados por un servidor central.",
+      "Permiten acceso remoto sin autenticación.",
+      "Solo funcionan en redes inalámbricas."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué es la delegación en redes",
+    "opciones": [
+      "Asignar una serie de permisos que gestionan el acceso a los objetos y propiedades del Directorio Activo.",
+      "Transferir archivos a otros usuarios sin permisos.",
+      "Crear copias de seguridad automáticas en la nube.",
+      "Actualizar el sistema operativo de forma manual."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué son los dominios en Windows",
+    "opciones": [
+      "Agrupación de ordenadores en un entorno de red, controlados por un ordenador que actúa de servidor principal.",
+      "Una lista de sitios web bloqueados.",
+      "Un tipo de archivo ejecutable del sistema.",
+      "Una base de datos de contraseñas del usuario."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué es Active Directory",
+    "opciones": [
+      "Sistema operativo del servidor que trabaja sobre el concepto de dominio, que permitirá coordinar y compartir de forma segura los recursos.",
+      "Una interfaz gráfica para configurar el escritorio.",
+      "Una aplicación para editar documentos colaborativamente.",
+      "Una herramienta para optimizar gráficos en juegos."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué son las unidades organizativas",
+    "opciones": [
+      "Son objetos contenedores que se usan para organizar otros objetos con propósitos administrativos.",
+      "Programas que permiten configurar la red inalámbrica.",
+      "Componentes físicos de la tarjeta madre.",
+      "Scripts utilizados para instalar controladores."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué son los objetos en Active Directory",
+    "opciones": [
+      "Son los componentes básicos de la estructura lógica del Directorio Activo, representan a usuarios y recursos como equipos e impresoras.",
+      "Pequeños archivos de configuración almacenados en caché.",
+      "Imágenes utilizadas en la pantalla de inicio.",
+      "Tipos de errores comunes en redes TCP/IP."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué es un bosque en Active Directory",
+    "opciones": [
+      "Conjunto de uno o varios dominios de Active Directory que comparten una estructura lógica, un esquema del directorio, una configuración de directorio y un catálogo global.",
+      "Una carpeta compartida entre varios usuarios.",
+      "Una colección de scripts para automatizar procesos.",
+      "Una topología de red usada para conexiones punto a punto."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Cuáles son algunos elementos de Active Directory",
+    "opciones": [
+      "Subredes, sitios del Directorio Activo, controladores del dominio.",
+      "Memoria RAM, disco duro, tarjeta de red.",
+      "Usuarios, carpetas compartidas, configuraciones de red.",
+      "Impresoras, monitores, discos externos."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Cuáles son los tipos de cuenta en Windows Server",
+    "opciones": [
+      "Cuentas de usuario locales, cuentas de usuario de dominio, cuentas de usuario integradas, cuentas de usuario implícitas.",
+      "Cuentas básicas, avanzadas, premium y temporales.",
+      "Cuentas públicas, privadas y empresariales.",
+      "Cuentas manuales, automáticas y en la nube."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué son los scripts de inicio de sesión",
+    "opciones": [
+      "Archivos por lotes del DOS que el cliente baja y ejecuta durante el proceso de inicio de sesión.",
+      "Programas que bloquean la sesión del usuario.",
+      "Imágenes que se muestran al iniciar el sistema.",
+      "Drivers que se instalan automáticamente al iniciar Windows."
+    ],
+    "respuesta_correcta": 0
+  }
+]

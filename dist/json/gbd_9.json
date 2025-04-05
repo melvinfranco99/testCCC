@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "Los backups son copias de seguridad.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Las copias de seguridad se deben realizar siempre en frío.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "La herramienta para llevar a cabo copias de seguridad físicas en caliente es Mysqlhotcopy.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Para realizar copias de seguridad incrementales se utiliza la opción log_bin=file_name.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "La herramienta gráfica Grid Control permite planificar realizar y restaurar copias de seguridad.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "La aplicación EMS Data Export for DB2 permite la exploración de bases de datos de Oracle.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Antes de realizar una copia de seguridad no es necesario guardar los elementos previamente.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "La sentencia BACKUP sólo puede utilizarse con tablas MyISAM.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "RESTORE permite la recuperación de una tabla o tablas concretas o de la base de datos completa.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "mysqldump realiza el volcado de la información de datos de las tablas sin construir un fichero de texto con los datos.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "pregunta": "Qué son los parches de seguridad en Windows y las actualizaciones de driver",
+    "opciones": [
+      "Son archivos liberados con el objetivo de corregir fallos de funcionamiento y tapar vulnerabilidades descubiertas en el sistema operativo.",
+      "Un software de diseño gráfico incluido en Windows.",
+      "Herramientas para instalar videojuegos más rápido.",
+      "Archivos que eliminan permanentemente el antivirus."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué es el monitor de confiabilidad",
+    "opciones": [
+      "Es una herramienta que proporciona información cuantificada de los problemas y cambios en el hardware y software del equipo.",
+      "Un dispositivo externo que mide la velocidad del procesador.",
+      "Un informe automático que analiza archivos multimedia.",
+      "Una aplicación para controlar el brillo de la pantalla."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué es un evento",
+    "opciones": [
+      "Es cualquier suceso significativo de una aplicación o del propio sistema, que necesita ser notificado al usuario o que agrega una entrada a un registro.",
+      "Una función de entretenimiento del sistema operativo.",
+      "Un mensaje de bienvenida que aparece al iniciar sesión.",
+      "Un calendario integrado para planificar tareas."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Cuáles son los tipos de registro",
+    "opciones": [
+      "Registro de la aplicación, registro de seguridad, registro de instalación, registro de sistema, registro de eventos reenviados.",
+      "Registro de llamadas, registro de video, registro de navegador.",
+      "Registro de memoria, registro de disco, registro de usuario.",
+      "Registro social, registro de contactos, registro de red."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Qué es un controlador de dispositivo o driver",
+    "opciones": [
+      "Es un programa informático que permite al sistema operativo interactuar con un dispositivo, haciendo una abstracción del hardware y proporcionando una interfaz para facilitar su configuración.",
+      "Un dispositivo que amplía la memoria RAM.",
+      "Un componente físico que acelera el sistema.",
+      "Una extensión del navegador para streaming de video."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "Cuáles son los niveles de gravedad",
+    "opciones": [
+      "Información, advertencia, error, crítico.",
+      "Suave, moderado, fuerte, extremo.",
+      "Inicial, intermedio, avanzado, experto.",
+      "Bajo, medio, alto, máximo."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "En qué consiste el nivel de gravedad información",
+    "opciones": [
+      "Se ha producido un cambio en una aplicación o en un componente del sistema, como el inicio de un servicio o la creación de un recurso.",
+      "Es un mensaje que indica que el sistema ha sido hackeado.",
+      "Una alerta que detiene inmediatamente el sistema.",
+      "Una notificación que elimina archivos antiguos."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "En qué consiste el nivel de gravedad advertencia",
+    "opciones": [
+      "Se ha producido algún tipo de problema que podría afectar al servicio o causar problemas aún más graves.",
+      "Un mensaje informativo sin importancia.",
+      "Un error crítico que apaga el sistema.",
+      "Una función que optimiza el rendimiento automáticamente."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "En qué consiste el nivel de gravedad error",
+    "opciones": [
+      "Se ha producido un problema que afecta a la aplicación o al componente que ha iniciado este evento.",
+      "Una mejora del sistema operativo.",
+      "Un cambio visual en la interfaz del usuario.",
+      "Una actualización exitosa del sistema."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "En qué consiste el nivel de gravedad crítico",
+    "opciones": [
+      "Se ha producido un error que no puede solucionarse de forma automática.",
+      "Un evento que inicia una actualización de seguridad.",
+      "Una alerta que sugiere limpiar el disco.",
+      "Una recomendación para cambiar la contraseña."
+    ],
+    "respuesta_correcta": 0
+  }
+]

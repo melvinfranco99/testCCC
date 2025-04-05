@@ -1,0 +1,102 @@
+[
+  {
+    "pregunta": "¿Cuál es la importancia de la reformulación en los discursos profesionales?",
+    "opciones": [
+      "Mejora la velocidad de habla.",
+      "Contribuye a la claridad y efectividad de la comunicación.",
+      "Aumenta el vocabulario técnico.",
+      "Facilita la traducción automática."
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es un beneficio adicional de la reformulación en entornos profesionales?",
+    "opciones": [
+      "Mejora la presentación visual de documentos.",
+      "Ayuda a evitar malentendidos.",
+      "Reduce el tiempo de reuniones.",
+      "Fomenta la creatividad."
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué tipo de reformulación utiliza los mismos términos y palabras que el interlocutor?",
+    "opciones": [
+      "Reformulación emocional.",
+      "Reformulación corporal.",
+      "Reformulación verbal.",
+      "Reformulación escrita."
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo de la reformulación emocional?",
+    "opciones": [
+      "Reflejar la intensidad emocional del mensaje recibido.",
+      "Reafirmar el contenido del mensaje.",
+      "Crear una sintonía no verbal.",
+      "Utilizar un lenguaje técnico."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Qué técnica implica adoptar una postura corporal y gestual similar a la del interlocutor?",
+    "opciones": [
+      "Reformulación verbal.",
+      "Reformulación emocional.",
+      "Reformulación corporal.",
+      "Reformulación técnica."
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Qué efecto puede tener el uso excesivo de preguntas en un discurso?",
+    "opciones": [
+      "Aumenta la claridad del mensaje.",
+      "Hace que los receptores se sientan inseguros acerca de la información.",
+      "Mejora la fluidez del discurso.",
+      "Genera más interés en los lectores."
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué beneficio tiene reformular preguntas en afirmaciones?",
+    "opciones": [
+      "Aumenta la cantidad de preguntas en el discurso.",
+      "Establece al autor como una autoridad en el tema.",
+      "Reduce la claridad del mensaje.",
+      "Genera confusión en los lectores."
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cómo ayuda la reformulación de preguntas a activar al receptor?",
+    "opciones": [
+      "Incitando a la acción de manera clara y decisiva.",
+      "Generando dudas sobre el mensaje.",
+      "Incrementando la cantidad de preguntas.",
+      "Prolongando el discurso."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Cómo utilizan los docentes la reformulación en el ámbito educativo?",
+    "opciones": [
+      "Para reducir la carga de trabajo.",
+      "Para explicar conceptos complejos de manera más clara y accesible.",
+      "Para evaluar el rendimiento de los estudiantes.",
+      "Para mantener la disciplina en el aula."
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cómo ayuda la reformulación en la gestión y resolución de conflictos?",
+    "opciones": [
+      "Facilitando la negociación y asegurando que todas las partes estén en la misma página.",
+      "Aumentando la duración de las reuniones.",
+      "Creando más conflictos.",
+      "Evitando la comunicación entre las partes."
+    ],
+    "respuesta_correcta": 0
+  }
+]

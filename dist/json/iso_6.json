@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "Con el modelo diferencial es posible recuperar datos a partir de la copia base y el último archivo de copia.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "El objetivo de la compresión es siempre reducir el tamaño de la información.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Es más recomendable hacer copias de seguridad remotas (en la nube) que hacerlas en local.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "La copia de seguridad que se crea a partir de un archivo de copia de referencia es la copia de seguridad diferencial.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Git, Mercurial, SVN y preforce son nombres de carpetas donde se almacenan los archivos restaurados.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "El espacio de almacenamiento que se necesita para realizar copias de seguridad de los archivos depende del tamaño de los archivos que se copien.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Realizar copias de seguridad de forma puntual ya es suficiente para mantener el equipo protegido contra malware y otros fallos del sistema.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Acronis True Image se usa para crear un punto de restauración.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Es posible realizar copias de seguridad mediante máquinas virtuales, como VirtualBox.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Los modelos incremental y diferencial utilizan como primera referencia la copia base.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    }
+]

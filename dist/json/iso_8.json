@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "Por defecto, los permisos de acceso a la carpeta “Acceso público” serán asignados para el grupo “Todos”.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Los permisos tienen prioridad ante cualquier derecho.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Si un usuario solo tiene el permiso de lectura sobre una carpeta compartida en un dominio Windows, puede crear nuevas carpetas dentro de la carpeta compartida.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "La monitorización consiste en instalar pantallas en todos los equipos del sistema.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "El sistema óptimo presenta un diagrama de Kiviat en forma de estrella.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Los diagramas de Kiviat eliminan los cuellos de botella de un sistema.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "El rendimiento de un sistema se relaciona directamente con su coste económico.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Hay objetos que están presentes en todos los sistemas.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Un subproceso es un objeto dentro de un proceso que ejecuta instrucciones del mismo.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "En Linux, la información de cada usuario referente a los derechos de uso y acceso al sistema se gestiona mediante el Active Directory.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    }
+]

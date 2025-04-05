@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "El lenguaje SQL es un lenguaje procedimental.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "CHAR contiene datos de tipo carácter con una longitud máxima de 32767 y con valor de longitud por defecto de 1.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "VARCHAR2 ofrece la capacidad de conseguir la información referente a los tipos de todos los campos de una tabla de la base de datos.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "La utilización de variables requiere realizar una declaración previa en el apartado DECLARE.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Los operadores generan expresiones que permiten realizar las operaciones que se propongan en combinación con las variables.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "La sentencia IF evalúa todas las condiciones hasta hallar alguna que se cumpla.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "Los cursores son las áreas de memoria dedicadas a almacenar datos extraídos mediante consulta SELECT.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "Cuando un procedimiento se crea, una vez realizada su función se elimina de la base de datos.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 1
+    },
+    {
+        "pregunta": "La función siempre devuelve un resultado que será de un tipo de dato concreto cuando se invoca o llama.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    },
+    {
+        "pregunta": "La excepción puede aparecer por un error o porque la haya lanzado el programador.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": 0
+    }
+]

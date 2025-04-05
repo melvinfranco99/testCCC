@@ -1,0 +1,172 @@
+[
+  {
+    "pregunta": "¿Cuál es el objetivo principal de la cortesía verbal en el contexto profesional?",
+    "opciones": [
+      "Mostrar deferencia hacia el interlocutor",
+      "Transmitir información de manera directa",
+      "Suavizar o evitar posibles conflictos de intereses",
+      "Reflejar las normas sociales"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Qué son los deícticos sociales?",
+    "opciones": [
+      "Estrategias de comunicación en situaciones de crisis",
+      "Formas de tratamiento que reflejan la estructura social",
+      "Normas de cortesía verbal en el entorno profesional",
+      "Técnicas para mejorar la cooperación mutua"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes características no es una propiedad macrosocial?",
+    "opciones": [
+      "Edad",
+      "Título",
+      "Actuación individual",
+      "Posición familiar"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Qué puede indicar un cambio repentino a un trato excesivamente formal entre dos personas que mantenían una relación cordial?",
+    "opciones": [
+      "Aumento de la distancia social y jerárquica",
+      "Mejora en la cooperación mutua",
+      "Interés del emisor en suavizar conflictos",
+      "Mantenimiento de la relación cordial"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es una de las máximas propuestas por el Principio de Cooperación de Grice?",
+    "opciones": [
+      "No ofrecer opciones",
+      "Ser ambiguo en las expresiones",
+      "No digas más de lo que creas necesario",
+      "Imponer la propia voluntad al interlocutor"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Qué regla introducida por Lakoff se alinea con las máximas del principio de cooperación de Grice?",
+    "opciones": [
+      "Ser cortés",
+      "No imponerse",
+      "Ofrecer opciones",
+      "Ser claro"
+    ],
+    "respuesta_correcta": 3
+  },
+  {
+    "pregunta": "¿Qué modalidad de la cortesía según Lakoff es adecuada cuando la relación entre los interlocutores es cercana?",
+    "opciones": [
+      "No imponerse",
+      "Ofrecer opciones",
+      "Fortalecer los lazos de camaradería",
+      "Ser impersonal"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo de la regla \"no imponerse\" en la cortesía de Lakoff?",
+    "opciones": [
+      "Disminuir las tensiones durante la interacción",
+      "Evitar referencias directas y opiniones propias",
+      "Mostrar interés por los asuntos del otro",
+      "Expresar una opinión sin parecer personal"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué asegura la transmisión efectiva del mensaje según el Principio de Cooperación de Grice?",
+    "opciones": [
+      "Que la información sea redundante",
+      "Que se utilicen términos ambiguos",
+      "Que se proporcionen detalles mínimos",
+      "Que la información sea clara, concisa y relevante"
+    ],
+    "respuesta_correcta": 3
+  },
+  {
+    "pregunta": "¿Qué sugiere la máxima de cantidad?",
+    "opciones": [
+      "Proporcionar la menor cantidad de información posible",
+      "Proporcionar más información de la necesaria",
+      "Proporcionar la cantidad justa de información necesaria",
+      "Proporcionar información irrelevante"
+    ],
+    "respuesta_correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es un ejemplo de la aplicación de la máxima de modo en un entorno profesional?",
+    "opciones": [
+      "Por favor, sigue estos tres pasos para completar la tarea: primero, recoge los datos; segundo, analiza las tendencias; y tercero, prepara el informe.",
+      "Por favor, proporciona un resumen detallado del informe.",
+      "Por favor, aumenta la cantidad de información proporcionada.",
+      "Por favor, evita discutir sobre el presupuesto."
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es una de las principales ventajas de la improvisación en la comunicación?",
+    "opciones": [
+      "Mantener siempre el mismo tono",
+      "Adaptarse a situaciones inesperadas",
+      "Evitar preguntas difíciles",
+      "Seguir un guion estricto"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué habilidad refleja la máxima de relación en la transmisión efectiva del mensaje?",
+    "opciones": [
+      "La claridad de la información",
+      "La pertinencia de la información con respecto al tema en discusión",
+      "La cantidad de información proporcionada",
+      "La veracidad de la información"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Qué ventaja ofrece la habilidad de improvisar durante una videoconferencia con problemas técnicos?",
+    "opciones": [
+      "Permitir que los participantes se desconecten",
+      "Mantener el flujo de la reunión y manejar problemas imprevistos con profesionalismo",
+      "Evitar cualquier interacción con la audiencia",
+      "Cambiar completamente el tema de la reunión"
+    ],
+    "respuesta_correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes es una buena práctica en la redacción profesional?",
+    "opciones": [
+      "Utilizar oraciones largas y complejas",
+      "Incluir muchos términos técnicos innecesarios",
+      "Evitar encabezados y subencabezados",
+      "Utilizar un lenguaje directo y claro"
+    ],
+    "respuesta_correcta": 3
+  },
+  {
+    "pregunta": "¿Qué guía de estilo se menciona como ejemplo para mantener la consistencia en el estilo y formato?",
+    "opciones": [
+      "APA",
+      "MLA",
+      "Harvard",
+      "Turabian"
+    ],
+    "respuesta_correcta": 0
+  },
+  {
+    "pregunta": "¿Por qué es importante considerar la audiencia y el propósito del documento?",
+    "opciones": [
+      "Para adaptar el contenido a la comprensión del lector",
+      "Para utilizar un lenguaje técnico en todos los documentos",
+      "Para evitar la revisión y edición del documento",
+      "Para asegurar que el documento sea extenso y detallado"
+    ],
+    "respuesta_correcta": 0
+  }
+]
