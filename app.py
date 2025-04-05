@@ -262,7 +262,7 @@ class TestApp:
         with open(archivo_resultados, "w", encoding="utf-8") as f:
             json.dump(resultados, f, indent=4)
         
-        self.navigate(self.inicio_app)
+        # self.navigate(self.inicio_app)
 
 
 
