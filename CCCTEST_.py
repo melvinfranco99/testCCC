@@ -5,6 +5,12 @@ import random
 import os
 import datetime
 
+# Obtener una ruta segura para guardar los resultados del usuario
+def get_resultados_path():
+    carpeta = os.path.join(os.getenv("APPDATA"), "CCCTEST_")
+    os.makedirs(carpeta, exist_ok=True)  # Crea la carpeta si no existe
+    return os.path.join(carpeta, "resultados_test.json")
+
 class TestApp:
     def __init__(self, master):
         self.master = master
